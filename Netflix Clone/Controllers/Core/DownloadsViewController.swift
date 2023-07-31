@@ -88,7 +88,7 @@ extension DownloadsViewController: UITableViewDelegate, UITableViewDataSource {
                 [weak self] result in
                 switch result {
                 case .success():
-                    print("deleted")
+                    print(" deleted")
                 case .failure(let error):
                     print(error.localizedDescription)
                 }
